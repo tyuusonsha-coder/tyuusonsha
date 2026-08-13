@@ -777,5 +777,92 @@
   }, { threshold: 0.1 });
   reveals.forEach(el => observer.observe(el));
 </script>
+ <div id="himiko-bar">
+  <a href="/himiko.html">
+    <span class="hb-label">芸能プロジェクト</span>
+    <span class="hb-title">卑弥呼ガールズ　一期生募集</span>
+    <span class="hb-arrow">→</span>
+  </a>
+  <button type="button" id="himiko-close" aria-label="閉じる">×</button>
+</div>
+<style>
+#himiko-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:9999;
+  display:flex;align-items:center;
+  background:linear-gradient(180deg,#0d0b08,#000);
+  border-top:1px solid #b99444;
+  padding-bottom:env(safe-area-inset-bottom);
+  font-family:"Yu Mincho","Hiragino Mincho ProN",serif;
+}
+#himiko-bar a{
+  flex:1;display:flex;align-items:center;gap:12px;
+  padding:14px 8px 14px 18px;text-decoration:none;color:#e8d9a8;
+}
+#himiko-bar .hb-label{
+  font-size:10px;letter-spacing:.24em;color:#b99444;
+  border:1px solid #6b5424;padding:3px 8px;white-space:nowrap;
+}
+#himiko-bar .hb-title{
+  font-size:14px;letter-spacing:.08em;flex:1;
+}
+#himiko-bar .hb-arrow{color:#b99444;font-size:15px}
+#himiko-close{
+  background:none;border:0;color:#7a6a45;
+  font-size:22px;line-height:1;padding:14px 16px;cursor:pointer;
+}
+@media(max-width:400px){
+  #himiko-bar .hb-label{display:none}
+  #himiko-bar .hb-title{font-size:13px}
+}
+</style>
+<script>
+document.getElementById('himiko-close').onclick=function(){
+  document.getElementById('himiko-bar').style.display='none';
+};
+</script>
+<div id="himiko-bar">
+  <a href="/himiko.html">
+    <span class="hb-label">芸能プロジェクト</span>
+    <span class="hb-title">卑弥呼ガールズ　一期生募集</span>
+    <span class="hb-arrow">→</span>
+  </a>
+  <button type="button" id="himiko-close" aria-label="閉じる">×</button>
+</div>
+<style>
+#himiko-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:9999;
+  display:flex;align-items:center;
+  background:linear-gradient(180deg,#0d0b08,#000);
+  border-top:1px solid #b99444;
+  padding-bottom:env(safe-area-inset-bottom);
+  font-family:"Yu Mincho","Hiragino Mincho ProN",serif;
+}
+#himiko-bar a{
+  flex:1;display:flex;align-items:center;gap:12px;
+  padding:14px 8px 14px 18px;text-decoration:none;color:#e8d9a8;
+}
+#himiko-bar .hb-label{
+  font-size:10px;letter-spacing:.24em;color:#b99444;
+  border:1px solid #6b5424;padding:3px 8px;white-space:nowrap;
+}
+#himiko-bar .hb-title{
+  font-size:14px;letter-spacing:.08em;flex:1;
+}
+#himiko-bar .hb-arrow{color:#b99444;font-size:15px}
+#himiko-close{
+  background:none;border:0;color:#7a6a45;
+  font-size:22px;line-height:1;padding:14px 16px;cursor:pointer;
+}
+@media(max-width:400px){
+  #himiko-bar .hb-label{display:none}
+  #himiko-bar .hb-title{font-size:13px}
+}
+</style>
+<script>
+document.getElementById('himiko-close').onclick=function(){
+  document.getElementById('himiko-bar').style.display='none';
+};
+</script>
+
 </body>
 </html>
