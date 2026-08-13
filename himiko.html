@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>卑弥呼ガールズプロジェクト｜合同会社中尊社</title>
+<meta name="description" content="福岡・那珂川発の芸能プロジェクト「卑弥呼計画」。ライブ・モデル・SNS配信で活動する卑弥呼ガールズのメンバーを募集しています。未成年の方は保護者同意のうえご応募いただけます。">
+<link rel="canonical" href="https://tyuusonsha.jp/himiko.html">
+<meta property="og:site_name" content="合同会社中尊社">
+<meta property="og:title" content="卑弥呼ガールズプロジェクト｜合同会社中尊社">
+<meta property="og:description" content="福岡・那珂川発の芸能プロジェクト「卑弥呼計画」。卑弥呼ガールズのメンバーを募集中。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tyuusonsha.jp/himiko.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "合同会社中尊社",
+  "url": "https://tyuusonsha.jp/",
+  "telephone": "+81-50-1724-3179",
+  "address": { "@type": "PostalAddress", "addressRegion": "福岡県", "addressLocality": "那珂川市", "addressCountry": "JP" },
+  "department": { "@type": "Organization", "name": "卑弥呼ガールズプロジェクト" }
+}
+</script>
+<style>
+:root{
+  --doki:#c4b49b;      /* 土器色（地） */
+  --doki-fuka:#ad9c81; /* 土器色（陰） */
+  --tsuchi:#8f7c62;    /* 土 */
+  --sumi:#201b16;      /* 墨 */
+  --shu:#b23a21;       /* 朱 */
+  --rokusho:#3f6b5c;   /* 緑青 */
+  --kin:#a88338;       /* 金銅 */
+  --gap:clamp(64px,9vw,128px);
+  --pad:clamp(20px,5vw,64px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  background:var(--doki);
+  color:var(--sumi);
+  font-family:"Zen Kaku Gothic New",-apple-system,sans-serif;
+  font-weight:400;
+  line-height:1.9;
+  font-size:16px;
+  overflow-x:hidden;
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(63,107,92,.10), transparent 42%),
+    radial-gradient(circle at 88% 92%, rgba(178,58,33,.09), transparent 45%);
+  background-attachment:fixed;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 var(--pad)}
+
+/* ── ヘッダー ── */
+.bar{
+  position:sticky;top:0;z-index:50;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:14px var(--pad);
+  background:rgba(196,180,155,.88);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid rgba(32,27,22,.16);
+}
+.bar__mark{
+  font-family:"Shippori Mincho B1",serif;font-weight:800;font-size:15px;
+  letter-spacing:.22em;text-decoration:none;
+}
+.bar__mark span{color:var(--shu)}
+.bar__cta{
+  font-size:13px;font-weight:700;letter-spacing:.12em;text-decoration:none;
+  padding:9px 18px;border-radius:999px;
+  background:var(--sumi);color:var(--doki);
+  transition:background .2s;
+}
+.bar__cta:hover{background:var(--shu)}
+
+/* ── ヒーロー ── */
+.hero{position:relative;padding:clamp(56px,11vw,120px) 0 clamp(64px,10vw,112px);text-align:center;overflow:hidden}
+.mirror{
+  position:absolute;top:50%;left:50%;
+  width:min(118vw,720px);aspect-ratio:1;
+  transform:translate(-50%,-50%);
+  opacity:.42;pointer-events:none;
+  animation:turn 220s linear infinite;
+}
+@keyframes turn{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.hero__inner{position:relative;z-index:1}
+.eyebrow{
+  font-size:11px;letter-spacing:.42em;font-weight:700;
+  color:var(--rokusho);margin-bottom:26px;
+}
+.hero h1{
+  font-family:"Shippori Mincho B1",serif;font-weight:800;
+  font-size:clamp(46px,13.5vw,124px);
+  line-height:1.02;letter-spacing:.03em;
+  text-shadow:0 1px 0 rgba(255,255,255,.28);
+}
+.hero h1 em{font-style:normal;color:var(--shu)}
+.hero__latin{
+  font-family:"Shippori Mincho B1",serif;font-weight:400;
+  font-size:clamp(11px,2.6vw,15px);letter-spacing:.52em;
+  margin-top:22px;color:var(--tsuchi);
+}
+.hero__lead{
+  max-width:30em;margin:34px auto 0;
+  font-size:clamp(15px,3.6vw,18px);line-height:2.05;
+}
+.hero__meta{
+  margin-top:32px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;
+}
+.chip{
+  font-size:12px;letter-spacing:.1em;font-weight:500;
+  padding:6px 14px;border:1px solid rgba(32,27,22,.34);border-radius:999px;
+}
+
+/* 読み込み演出 */
+.rise{opacity:0;transform:translateY(18px);animation:rise .9s cubic-bezier(.2,.7,.3,1) forwards}
+.d1{animation-delay:.1s}.d2{animation-delay:.28s}.d3{animation-delay:.46s}.d4{animation-delay:.62s}
+@keyframes rise{to{opacity:1;transform:none}}
+
+/* ── セクション共通 ── */
+section{padding:var(--gap) 0}
+.head{margin-bottom:clamp(32px,5vw,56px)}
+.head__label{
+  font-size:11px;letter-spacing:.34em;font-weight:700;color:var(--shu);
+  display:block;margin-bottom:14px;
+}
+.head h2{
+  font-family:"Shippori Mincho B1",serif;font-weight:800;
+  font-size:clamp(26px,6.4vw,44px);line-height:1.4;letter-spacing:.04em;
+}
+.head p{margin-top:16px;max-width:44em;font-size:clamp(14px,3.4vw,16px)}
+
+/* ── 三本柱 ── */
+.pillars{display:grid;gap:2px;background:rgba(32,27,22,.18);border:1px solid rgba(32,27,22,.18)}
+@media(min-width:760px){.pillars{grid-template-columns:repeat(3,1fr)}}
+.pillar{background:var(--doki);padding:clamp(26px,4vw,38px)}
+.pillar__kanji{
+  font-family:"Shippori Mincho B1",serif;font-weight:800;
+  font-size:clamp(38px,9vw,58px);line-height:1;color:var(--rokusho);
+}
+.pillar h3{font-family:"Shippori Mincho B1",serif;font-size:19px;font-weight:600;margin:18px 0 10px;letter-spacing:.06em}
+.pillar p{font-size:14.5px;line-height:1.95}
+
+/* ── 支援 ── */
+.support{display:grid;gap:2px;background:rgba(32,27,22,.18);border:1px solid rgba(32,27,22,.18)}
+@media(min-width:680px){.support{grid-template-columns:repeat(2,1fr)}}
+.support li{background:var(--doki);padding:22px clamp(20px,3vw,30px);list-style:none;display:flex;gap:14px;align-items:flex-start}
+.support b{
+  font-family:"Shippori Mincho B1",serif;color:var(--kin);
+  font-size:13px;letter-spacing:.1em;flex:none;padding-top:3px;
+}
+.support span{font-size:14.5px;line-height:1.9}
+
+/* ── 募集要項テーブル ── */
+.spec{width:100%;border-collapse:collapse;font-size:14.5px}
+.spec th,.spec td{
+  text-align:left;vertical-align:top;padding:18px 4px;
+  border-bottom:1px solid rgba(32,27,22,.24);line-height:1.9;
+}
+.spec th{
+  font-family:"Shippori Mincho B1",serif;font-weight:600;letter-spacing:.1em;
+  width:11em;white-space:nowrap;color:var(--tsuchi);
+}
+@media(max-width:600px){
+  .spec,.spec tbody,.spec tr,.spec th,.spec td{display:block;width:auto}
+  .spec th{border:0;padding:18px 0 2px;color:var(--rokusho)}
+  .spec td{padding:0 0 18px}
+}
+
+/* ── 選考フロー ── */
+.flow{counter-reset:step;display:grid;gap:0}
+.flow li{
+  list-style:none;counter-increment:step;
+  display:grid;grid-template-columns:auto 1fr;gap:clamp(16px,4vw,32px);
+  padding:26px 0;border-top:1px solid rgba(32,27,22,.24);
+}
+.flow li:last-child{border-bottom:1px solid rgba(32,27,22,.24)}
+.flow li::before{
+  content:"零" counter(step);
+  font-family:"Shippori Mincho B1",serif;font-weight:400;font-size:13px;
+  letter-spacing:.14em;color:var(--shu);padding-top:6px;
+}
+.flow h3{font-family:"Shippori Mincho B1",serif;font-size:clamp(18px,4.4vw,23px);font-weight:600;letter-spacing:.05em}
+.flow p{font-size:14.5px;margin-top:8px;max-width:40em}
+
+/* ── 保護者向け ── */
+.guardian{
+  border:1px solid var(--rokusho);
+  background:rgba(63,107,92,.09);
+  padding:clamp(26px,5vw,48px);
+}
+.guardian h2{font-family:"Shippori Mincho B1",serif;font-size:clamp(21px,5vw,30px);font-weight:800;letter-spacing:.05em;margin-bottom:20px}
+.guardian ul{margin:20px 0 0;padding-left:1.1em}
+.guardian li{font-size:14.5px;margin-bottom:12px;line-height:1.9}
+.guardian li::marker{color:var(--rokusho)}
+
+/* ── FAQ ── */
+details{border-bottom:1px solid rgba(32,27,22,.24);padding:4px 0}
+details:first-of-type{border-top:1px solid rgba(32,27,22,.24)}
+summary{
+  cursor:pointer;list-style:none;padding:20px 34px 20px 0;position:relative;
+  font-family:"Shippori Mincho B1",serif;font-size:16px;font-weight:600;letter-spacing:.04em;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:"";position:absolute;right:6px;top:50%;
+  width:9px;height:9px;border-right:1.5px solid var(--shu);border-bottom:1.5px solid var(--shu);
+  transform:translateY(-70%) rotate(45deg);transition:transform .25s;
+}
+details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+details p{font-size:14.5px;padding:0 0 22px;max-width:44em}
+
+/* ── CTA ── */
+.apply{background:var(--sumi);color:var(--doki);text-align:center}
+.apply h2{font-family:"Shippori Mincho B1",serif;font-size:clamp(28px,7vw,52px);font-weight:800;letter-spacing:.06em;line-height:1.3}
+.apply p{margin:22px auto 0;max-width:32em;font-size:15px;opacity:.86}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:38px}
+.btn{
+  text-decoration:none;font-weight:700;font-size:15px;letter-spacing:.1em;
+  padding:16px 34px;border-radius:999px;transition:.2s;
+}
+.btn--solid{background:var(--shu);color:#fff}
+.btn--solid:hover{background:#8f2c17}
+.btn--line{border:1px solid rgba(201,188,166,.5);color:var(--doki)}
+.btn--line:hover{border-color:var(--doki);background:rgba(201,188,166,.12)}
+
+/* ── フッター ── */
+footer{padding:48px 0;font-size:13px;line-height:2.1}
+footer .name{font-family:"Shippori Mincho B1",serif;font-weight:600;letter-spacing:.14em;font-size:15px;margin-bottom:10px}
+footer .fine{margin-top:18px;color:var(--tsuchi);font-size:12px}
+
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .rise{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <a class="bar__mark" href="/">中尊社<span>／</span>卑弥呼計画</a>
+  <a class="bar__cta" href="#apply">応募する</a>
+</header>
+
+<main>
+
+<!-- ヒーロー：内行花文鏡 -->
+<div class="hero">
+  <svg class="mirror" viewBox="0 0 400 400" aria-hidden="true">
+    <defs>
+      <radialGradient id="patina" cx="50%" cy="42%" r="62%">
+        <stop offset="0%" stop-color="#6f9a86"/>
+        <stop offset="58%" stop-color="#3f6b5c"/>
+        <stop offset="100%" stop-color="#a88338"/>
+      </radialGradient>
+    </defs>
+    <circle cx="200" cy="200" r="176" fill="none" stroke="url(#patina)" stroke-width="9"/>
+    <circle cx="200" cy="200" r="160" fill="none" stroke="var(--kin)" stroke-width="1.2" opacity=".8"/>
+    <circle cx="200" cy="200" r="150" fill="none" stroke="var(--rokusho)" stroke-width="2.5" opacity=".7"/>
+    <path d="M 200.00 78.00 A 74.00 74.00 0 0 1 286.27 113.73 A 74.00 74.00 0 0 1 322.00 200.00 A 74.00 74.00 0 0 1 286.27 286.27 A 74.00 74.00 0 0 1 200.00 322.00 A 74.00 74.00 0 0 1 113.73 286.27 A 74.00 74.00 0 0 1 78.00 200.00 A 74.00 74.00 0 0 1 113.73 113.73 A 74.00 74.00 0 0 1 200.00 78.00 Z"
+          fill="none" stroke="url(#patina)" stroke-width="3.4"/>
+    <circle cx="200" cy="200" r="58" fill="none" stroke="var(--kin)" stroke-width="1.6" opacity=".75"/>
+    <circle cx="200" cy="200" r="26" fill="none" stroke="var(--rokusho)" stroke-width="7" opacity=".85"/>
+    <circle cx="200" cy="200" r="9" fill="var(--kin)" opacity=".8"/>
+    <g stroke="var(--kin)" stroke-width="1" opacity=".55">
+      <line x1="200" y1="26" x2="200" y2="60"/><line x1="200" y1="340" x2="200" y2="374"/>
+      <line x1="26" y1="200" x2="60" y2="200"/><line x1="340" y1="200" x2="374" y2="200"/>
+    </g>
+  </svg>
+
+  <div class="hero__inner wrap">
+    <p class="eyebrow rise d1">合同会社中尊社／芸能プロジェクト</p>
+    <h1 class="rise d2">卑弥呼<em>ガールズ</em></h1>
+    <p class="hero__latin rise d2">P R O J E C T &nbsp; H I M I K O</p>
+    <p class="hero__lead rise d3">
+      邪馬台国が置かれたと伝わるこの土地から、歌い、魅せ、言葉を届ける女性たちを世に出す。
+      福岡・那珂川発の芸能プロジェクト「卑弥呼計画」が、その一期生を迎えます。
+    </p>
+    <div class="hero__meta rise d4">
+      <span class="chip">福岡県那珂川市</span>
+      <span class="chip">一期生募集中</span>
+      <span class="chip">未経験可</span>
+      <span class="chip">未成年は保護者同意制</span>
+    </div>
+  </div>
+</div>
+
+<!-- 概要 -->
+<section id="about">
+  <div class="wrap">
+    <div class="head">
+      <span class="head__label">プロジェクト概要</span>
+      <h2>百枚の鏡を配った女王に、<br>倣うところがあります。</h2>
+      <p>
+        魏志倭人伝が伝える卑弥呼は、剣ではなく言葉と象徴で人をまとめた人物でした。授かった銅鏡百枚を各地の首長へ配り、自らの存在を遠くまで届けた——いまでいえば、それは発信そのものです。
+        卑弥呼ガールズプロジェクトは、その姿勢を現代の芸能活動に置き換えた企画です。ステージ、カメラ、画面。三つの場所で、ひとりずつが自分の名前を届けられるところまで育てていきます。
+      </p>
+    </div>
+
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pillar__kanji">舞</div>
+        <h3>ステージに立つ</h3>
+        <p>ライブ、対バン、地域イベントでの歌唱・パフォーマンス。月一回以上の出演機会を目標に、ボーカルとダンスのレッスンを並行して行います。</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__kanji">映</div>
+        <h3>撮られる仕事をする</h3>
+        <p>モデル、広告出演、PRイベント、企業・店舗のキャンペーン。宣材写真は事務所が用意し、案件は所属タレントへ順に振り分けます。</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__kanji">伝</div>
+        <h3>自分の言葉で発信する</h3>
+        <p>TikTok・Instagram・YouTube・ライブ配信。撮影と編集の基礎から支援し、個人アカウントの伸ばし方まで一緒に組み立てます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 事務所の支援 -->
+<section id="support">
+  <div class="wrap">
+    <div class="head">
+      <span class="head__label">事務所が用意するもの</span>
+      <h2>持ち出しゼロで、始められるように。</h2>
+      <p>レッスン費・衣装費・撮影費を本人に前払いさせる方式はとりません。下記は事務所負担、または報酬からの精算方式（上限つき）とし、契約時に金額を明示します。</p>
+    </div>
+    <ul class="support">
+      <li><b>レッスン</b><span>ボーカル・ダンス・カメラ前の立ち居振る舞い。月2回以上、那珂川・博多エリアのスタジオで実施します。</span></li>
+      <li><b>宣材</b><span>プロフィール写真、動画リール、経歴シートの作成。半年ごとに撮り直します。</span></li>
+      <li><b>衣装</b><span>ステージ衣装・撮影衣装の貸与。制作費の自己負担はありません。</span></li>
+      <li><b>営業</b><span>イベント主催者・メディア・広告主への売り込みと、出演条件の交渉を事務所が行います。</span></li>
+      <li><b>安全</b><span>現場への同行、送迎、控室の確保。ハラスメント時の窓口を設け、事務所が相手方に対応します。</span></li>
+      <li><b>報酬</b><span>案件ごとの分配率を契約書に明記し、毎月の支払明細で内訳を開示します。</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 募集要項 -->
+<section id="recruit">
+  <div class="wrap">
+    <div class="head">
+      <span class="head__label">募集要項</span>
+      <h2>一期生を募集しています。</h2>
+    </div>
+    <table class="spec">
+      <tbody>
+        <tr><th>募集人数</th><td>【　】名程度（一期生）</td></tr>
+        <tr><th>応募資格</th><td>満【15】歳以上の女性。芸能経験は問いません。学生・社会人いずれも応募できます。18歳未満の方は保護者（法定代理人）の同意が必要です。</td></tr>
+        <tr><th>活動地域</th><td>福岡県内を中心に、九州各県。遠方の案件は事前に相談のうえ決定します。</td></tr>
+        <tr><th>活動内容</th><td>ライブ・イベント出演、モデル・広告出演、SNS／動画配信。<br>水着・下着・性的な表現を伴う仕事は本プロジェクトでは扱いません。接客業・ナイト系の業務もありません。</td></tr>
+        <tr><th>活動時間</th><td>学業・本業を優先します。18歳未満の方は22時から翌5時までの活動を行いません。</td></tr>
+        <tr><th>契約形態</th><td>専属マネジメント契約（期間1年・書面合意による更新）。契約書は面談時にお渡しし、持ち帰って検討していただけます。</td></tr>
+        <tr><th>報酬</th><td>案件ごとの出演料を、契約書に定めた分配率で精算。月末締め・翌月【　】日払い。</td></tr>
+        <tr><th>費用</th><td>入所金・レッスン費の前払いはありません。詳細は契約書別紙に記載します。</td></tr>
+        <tr><th>応募方法</th><td>電話・LINE・応募フォームのいずれかから、氏名／年齢／居住地／連絡先／志望動機をお送りください。</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- 選考フロー -->
+<section id="flow">
+  <div class="wrap">
+    <div class="head">
+      <span class="head__label">選考の流れ</span>
+      <h2>応募から活動開始まで。</h2>
+    </div>
+    <ol class="flow">
+      <li>
+        <div><h3>応募</h3><p>フォーム・LINE・電話で受け付けます。写真の添付は任意です。3日以内に事務所から連絡します。</p></div>
+      </li>
+      <li>
+        <div><h3>面談</h3><p>那珂川市内の事務所または近隣のカフェで実施。所要30〜60分。未成年の方は保護者の同席をお願いしています。</p></div>
+      </li>
+      <li>
+        <div><h3>実技審査</h3><p>歌・ダンス・自己PRのいずれかを見せていただきます。うまさではなく、続けられるかを見ます。</p></div>
+      </li>
+      <li>
+        <div><h3>契約・活動開始</h3><p>契約書をお渡しし、持ち帰って確認いただいたうえで締結します。その場での署名は求めません。締結後、レッスンと宣材撮影から始めます。</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- 保護者の方へ -->
+<section id="guardian">
+  <div class="wrap">
+    <div class="guardian">
+      <h2>保護者の方へ</h2>
+      <p>18歳未満の方をお預かりするにあたり、事務所として次のことをお約束します。</p>
+      <ul>
+        <li>契約は、本人と保護者（法定代理人）双方の署名をもって成立します。同意書のない契約は締結しません。</li>
+        <li>労働基準法・児童福祉法および福岡県青少年健全育成条例を遵守し、22時から翌5時までの活動は行いません。</li>
+        <li>学業を最優先します。試験期間・学校行事の期間は活動を組みません。</li>
+        <li>水着・下着・性的な表現を伴う仕事、飲酒を伴う仕事は一切受けません。</li>
+        <li>保護者の方は、いつでも現場を見学し、活動記録と報酬明細の開示を求めることができます。</li>
+        <li>契約の中途解約は、本人・保護者からの申し出により違約金なしで行えます。</li>
+      </ul>
+      <p style="margin-top:22px;font-size:14.5px">ご不明な点は、契約前にいくらでもご質問ください。電話 050-1724-3179／LINE ID: kuikkusutsa</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="head">
+      <span class="head__label">よくあるご質問</span>
+      <h2>応募前に多いご質問。</h2>
+    </div>
+    <details><summary>経験がまったくありません。応募できますか。</summary><p>できます。一期生は未経験からの育成を前提にしています。選考では技術より、続ける意思と現場での姿勢を見ています。</p></details>
+    <details><summary>学校や仕事と両立できますか。</summary><p>できます。活動日は事前に希望を出していただき、学業・本業のスケジュールを優先して組みます。</p></details>
+    <details><summary>お金はかかりますか。</summary><p>入所金・レッスン費の前払いはありません。事務所が立て替える費用がある場合は、金額と回収方法を契約書別紙に明記します。</p></details>
+    <details><summary>顔出しなしでも活動できますか。</summary><p>SNS・配信のみであれば相談に応じます。ただしライブ・モデル案件は顔出しが前提となります。</p></details>
+    <details><summary>やめたくなったら、すぐにやめられますか。</summary><p>やめられます。書面で申し出ていただければ、違約金なしで契約を終了します。進行中の案件がある場合のみ、その終了までご協力をお願いしています。</p></details>
+    <details><summary>他の事務所と掛け持ちできますか。</summary><p>本プロジェクトは専属契約のため、芸能活動については掛け持ちできません。芸能活動以外のアルバイト・就業は制限しません。</p></details>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="apply" id="apply">
+  <div class="wrap">
+    <h2>鏡は、配ってこそ意味がある。</h2>
+    <p>あなたの名前を、福岡の外まで届けます。まずは話を聞くだけでもかまいません。</p>
+    <div class="actions">
+      <a class="btn btn--solid" href="tel:05017243179">電話で応募する</a>
+      <a class="btn btn--line" href="https://line.me/R/ti/p/~kuikkusutsa">LINEで相談する</a>
+    </div>
+    <p style="margin-top:28px;font-size:13px;opacity:.7">受付時間 10:00〜19:00／LINE ID: kuikkusutsa</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="name">合同会社中尊社</div>
+    <div>福岡県那珂川市【　　　　　　　】／代表社員 【氏名】</div>
+    <div>TEL 050-1724-3179　LINE ID: kuikkusutsa</div>
+    <div class="fine">© 合同会社中尊社　卑弥呼ガールズプロジェクトは合同会社中尊社が運営する芸能プロジェクトです。</div>
+  </div>
+</footer>
+
+</body>
+</html>
