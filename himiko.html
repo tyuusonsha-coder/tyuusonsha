@@ -83,9 +83,9 @@ a{color:inherit}
 .hero{position:relative;padding:clamp(56px,11vw,120px) 0 clamp(64px,10vw,112px);text-align:center;overflow:hidden}
 .mirror{
   position:absolute;top:50%;left:50%;
-  width:min(118vw,720px);aspect-ratio:1;
+  width:min(104vw,700px);aspect-ratio:1;
   transform:translate(-50%,-50%);
-  opacity:.42;pointer-events:none;
+  opacity:.34;pointer-events:none;
   animation:turn 220s linear infinite;
 }
 @keyframes turn{to{transform:translate(-50%,-50%) rotate(360deg)}}
@@ -96,14 +96,15 @@ a{color:inherit}
 }
 .hero h1{
   font-family:"Shippori Mincho B1",serif;font-weight:800;
-  font-size:clamp(46px,13.5vw,124px);
+  font-size:clamp(40px,11.3vw,124px);
+  white-space:nowrap;
   line-height:1.02;letter-spacing:.03em;
   text-shadow:0 1px 0 rgba(255,255,255,.28);
 }
 .hero h1 em{font-style:normal;color:var(--shu)}
 .hero__latin{
   font-family:"Shippori Mincho B1",serif;font-weight:400;
-  font-size:clamp(11px,2.6vw,15px);letter-spacing:.52em;
+  font-size:clamp(11px,2.6vw,15px);letter-spacing:.4em;
   margin-top:22px;color:var(--tsuchi);
 }
 .hero__lead{
